@@ -1,0 +1,20 @@
+<h2>The website is currently under construction, be we do have a few delicious recipes for you to chew on...</h2>
+
+<form role="search">
+  <input type="text" name="search" value="<%= @search %>" placeholder="Search">
+  <button type="submit">Submit</button>
+</form>
+
+<h4>Here are the recipes in an unordered list</h4>
+<ul>
+  <% @recipes.each do |recipe| %>
+  <li>
+    <a href="recipes/<%= recipe.id %>">
+      <span><%= recipe.category %> - </span>
+      <span><%= recipe.name %> - </span>
+      <span><%= recipe.serves %> - </span>
+      <span><%= recipe.cooking_time %></span>
+    </a>
+  </li>
+  <% end %>
+</ul>
