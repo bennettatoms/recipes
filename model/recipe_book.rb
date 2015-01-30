@@ -29,7 +29,7 @@ class RecipeBook
                   serves:       8,
                   difficulty:  'Easy',
                   rating:       [5.0, 5.0, 'stars'],
-                  image_file:   'ginger_carrot_soup.jpg',
+                  image_file:   'ginger_carrot_soup.jpeg',
                   source:       'http://www.foodnetwork.com/recipes/ginger-carrot-soup-recipe.html'
                 ),
       Recipe.new( id:           2,
