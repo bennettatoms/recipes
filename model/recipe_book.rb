@@ -1,4 +1,5 @@
 require_relative './recipe'
+require 'pry'
 
 # This is the master file of all recipes featured on the website
 class RecipeBook
@@ -633,8 +634,15 @@ class RecipeBook
     all.select do |recipe|
       recipe.name.downcase.include?(pattern.downcase) ||
         recipe.category.downcase.include?(pattern.downcase) ||
-        recipe.ingredients.downcase.include?(pattern.downcase) ||
-        recipe.source.downcase.include?(pattern.downcase)
+        recipe.source.downcase.include?(pattern.downcase) ||
+        recipe.ingredients.keys.include?(pattern.downcase)
     end
   end
+
+#   def strung(ingredients)
+#     ingredients.each do |key, value| 
+#       puts "#{value} #{key}"
+#     end
+#   end
+# # binding.pry
 end

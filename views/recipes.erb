@@ -5,39 +5,36 @@
     </div>
     <button type="submit" class="btn btn-success">Submit</button>
     <button type="reset"  class="btn btn-warning"
-            onclick="window.location.href='/items'">Reset</button>
+            onclick="window.location.href='/recipes'">Reset</button>
   </form>
 </section>
 
-<h2>The website is currently under construction, be we do have a few delicious recipes for you to chew on...</h2>
-
 <section class="container recipes">
-  <div class="list-group">
-    <div class="row">
-    <% @recipes.each do |recipe| %>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-        <a href="recipes/<%= recipe.id %>" class="list-group-item">
-          <h3><%= recipe.name %></h3>
-          <article class="row">
-            <div class="col-xs-5">
-              <img class="middle" width=96px src="/images/<%= recipe.image_file %>"/>
-            </div>
-            <div class="col-xs-7">
-              <dl class="dl-horizontal">
-                <dt>Name:</dt>
-                <dd><%= recipe.name %></dd>
-                <dt>Category:</dt>
-                <dd><%= recipe.category %></dd>
-                <dt>Rating:</dt>
-                <dd><%= recipe.rating %></dd>
-                <dt>Cooking Time:</dt>
-                <dd><%= recipe.cooking_time %></dd>
-              </dl>
-            </div>
-          </article>
-        </a>
-      </div>
-    <% end %>
+  <h2>The website is currently under construction, be we do have a few delicious recipes for you to chew on...</h2>
+    <div class="list-group">
+      <div class="row">
+      <% @recipes.each do |recipe| %>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <a href="recipes/<%= recipe.id %>" class="list-group-item">
+            <h3><%= recipe.name %></h3>
+            <article class="row">
+              <div class="col-xs-5">
+                <img class="middle" width=96px src="/images/<%= recipe.image_file %>"/>
+              </div>
+              <div class="col-xs-7">
+                <dl class="dl-horizontal">
+                  <dt>Category:</dt>
+                  <dd><%= recipe.category %></dd>
+                  <dt>Rating:</dt>
+                  <dd><%= "#{recipe.rating[0]} out of #{recipe.rating[1]} #{recipe.rating[2]}" %></dd>
+                  <dt>Time Required:</dt>
+                  <dd><%= recipe.cooking_time.each { |key, value| puts "#{key.to_s.capitalize}: #{value.to_s} mins" } %></dd>
+                </dl>
+              </div>
+            </article>
+          </a>
+        </div>
+      <% end %>
     </div>
   </div>
 </section>      

@@ -1,22 +1,26 @@
 <section class="container-fluid recipe">
   <div class="row">
     <h2 class="text-center"><%= @recipe.name %></h2>
-    <div class="col-md-4 col-md-offset-2">
+    <div class="col-md-6 col-md-offset-1">
       <dl class="dl-horizontal">
         <dt>Category:</dt>
         <dd><%= @recipe.category %></dd>
-        <dt>Total Cooking Time:</dt>
-        <dd><%= @recipe.cooking_time %></dd>
+        <dt>Time Required:</dt>
+        <% @recipe.cooking_time.each do |key, value| %>
+          <dd><%= "#{key.to_s.capitalize}: #{value.to_s} mins" %></dd>
+        <% end %>  
         <dt>Rating:</dt>
-        <dd><%= @recipe.rating %></dd>
+        <dd><%= "#{@recipe.rating[0]} out of #{@recipe.rating[1]} #{@recipe.rating[2]}" %></dd>
         <dt>Serves:</dt>
         <dd><%= @recipe.serves %></dd>
         <dt>Ingredients:</dt>
-        <dd><%= @recipe.ingredients %></dd>
+        <% @recipe.ingredients.each do |key, value| %>
+          <dd><%= "#{value.to_s} #{key.to_s}" %></dd>
+        <% end %>
         <dt>Preparation:</dt>
         <dd><%= @recipe.preparation %></dd>
         <dt>Source:</dt>
-        <dd><%= @recipe.source %></dd>
+        <dd><a href="<%= @recipe.source %>" target="_blank"><%= @recipe.source %>></a></dd>
       </dl>
 
       <div class="back">
@@ -26,8 +30,8 @@
       </div>
     </div>
 
-    <div class="col-md-4 item-image">
-      <img class="middle" width=200px src="/images/<%= @recipe.image_file %>"/>
+    <div class="col-md-5 item-image">
+      <img class="middle" width=300px src="/images/<%= @recipe.image_file %>"/>
     </div>
   </div>
 </section>
