@@ -1,6 +1,7 @@
-class Recipe  
-
-  attr_reader :id, :name, :category, :ingredients, :preparation, :cooking_time, :difficulty, :source
+# This is the class file for the structure of every recipe on the website
+class Recipe
+  attr_reader :id, :name, :category, :ingredients, :preparation
+  attr_reader :cooking_time, :difficulty, :rating, :image_file, :source
   attr_accessor :serves
 
   def initialize(args)
@@ -9,15 +10,15 @@ class Recipe
     @category     = args[:category]
     @ingredients  = args[:ingredients]
     @preparation  = args[:preparation]
-    @source       = args[:source]
     @cooking_time = args[:cooking_time]
     @serves       = args[:serves]
     @difficulty   = args[:difficulty]
-
-
-  end 
+    @rating       = args[:rating]
+    @image_file   = args[:image_file]
+    @source       = args[:source]
+  end
 
   def to_s
     "ID: #{@id}, Name: #{@name}, Category: #{@category}, Ingredients: #{@ingredients}"
   end
-end  
+end
