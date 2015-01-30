@@ -1,4 +1,9 @@
 <section class="container-fluid recipe">
+  <div class="back">
+    <button type="button"
+            class="btn btn-primary"
+            onclick="window.history.back()">Back</button>
+  </div>
   <div class="row">
     <h2 class="text-center"><%= @recipe.name %></h2>
     <div class="col-md-6 col-md-offset-1">
@@ -17,21 +22,20 @@
         <% @recipe.ingredients.each do |key, value| %>
           <dd><%= "#{value.to_s} #{key.to_s}" %></dd>
         <% end %>
+      </dl>
+    </div>
+    <div class="col-md-5 item-image">
+      <img class="middle" width=300px src="/images/<%= @recipe.image_file %>"/>
+    </div>  
+  </div>
+  <div class="row">>
+    <div class="col-md-10 col-md-offset-1">
+      <dl class="dl-horizontal">  
         <dt>Preparation:</dt>
-        <dd><%= @recipe.preparation %></dd>
+        <dd> <%= @recipe.preparation %></dd>
         <dt>Source:</dt>
         <dd><a href="<%= @recipe.source %>" target="_blank"><%= @recipe.source %>></a></dd>
       </dl>
-
-      <div class="back">
-        <button type="button"
-                class="btn btn-primary"
-                onclick="window.history.back()">Back</button>
-      </div>
-    </div>
-
-    <div class="col-md-5 item-image">
-      <img class="middle" width=300px src="/images/<%= @recipe.image_file %>"/>
     </div>
   </div>
 </section>

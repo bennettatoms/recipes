@@ -26,3 +26,4 @@ get '/recipes/:id' do
   @recipe = RecipeBook.find(params[:id].to_i)
   erb :recipe
 end
+

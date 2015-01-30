@@ -2,18 +2,45 @@
 
 /*font-family: 'Yesteryear', cursive;*/
 
+body {
+  background-color: rgba(39, 98, 81, 0.22);
+}
+
 .text-center {
   margin-bottom: 40px;
 }
+/* Home page welcome */
+.welcome h1 {
+  /*background-color: rgba(231, 150, 28, 0.6);           rgba(39, 98, 81, 0.22);*/
+  font-family: 'Yesteryear', cursive;
+  font-size: 4em;
+  text-align: center;
 
+}
+.welcome img {
+  width: 300px;
+  height: 100px;
+}
+
+/* Home page carousel */
 .carousel-inner{
   text-align: center;
   width: 460px;
   height: 380px;
   margin: auto;
   padding: auto;
-
 }
+
+.carousel-caption h3 {
+  font-family: 'Yesteryear', cursive;
+  font-size: 2em;
+}
+.carousel-caption img {
+  margin: auto;
+  width: 300px;
+  height: 100px;
+}
+
 /*.carousel img {
   vertical-align: middle;
   top: 0;
@@ -23,28 +50,46 @@
   max-width: none;
 }*/
 
-.item1 {
-    background: url('bootstrap/img/bg.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+/* Navigation bar adjustments */
+.navbar-brand img {
+ /* background-color: rgba(231, 150, 28, 0.6); */
+  width: 125px;
+  height: 50px;
+  margin: -10px;
+  opacity: 0.6;
 }
+/*
+.navbar-form {
+  text-align: center;
+  width: 600px;
+}
+
+.navbar-form img {
+  width: 125px;
+  height: 50px;
+}
+*/
+/* Recipes page layout */
 
 .search {
   text-align: center;
 }
 
-.recipes h2 {
+.dl-horizontal dt {
+  text-align: left;
+  /*margin-bottom: 1em;*/
+  /*width: auto;*/
+  padding-right: 1em;
+}
+
+.recipes h3 {
   text-align: center;
   color: #18bc9c;
   margin-bottom: 20px;
 }
 
-.navbar-brand {
-  padding-left: 10px;
-  margin-top: -10px;
-  width: 60px;
-  height: 80px;
-  margin-bottom: -10px;
+.recipes h3 img{
+  width: 100px;
+  height: 38px;
 }
+

@@ -319,17 +319,29 @@ class RecipeBook
                                 'bunches Tuscan kale (about 1 pound), ribs removed, kale coarsely chopped' => 2,
                                 'ounces extra-sharp cheddar cheese, coarsely grated' => 8
                               },
-                  preparation:  'Preheat oven to 400°F. Toss squash with 1 tablespoon oil on rimmed baking sheet. Sprinkle with coarse salt; bake until squash is tender, turning with spatula occasionally, 20 to 25 minutes.
+                  preparation:[ 'Preheat oven to 400°F. Toss squash with 1 tablespoon oil on rimmed baking sheet. 
+                                Sprinkle with coarse salt; bake until squash is tender, turning with spatula occasionally, 
+                                20 to 25 minutes.',
 
-                                Whisk eggs in large bowl. Add half and half, wine, mustard, and 1 1/2 teaspoons coarse salt; whisk to blend. Add baguette pieces; fold gently into egg mixture. Let soak 30 minutes, stirring occasionally.
+                                'Whisk eggs in large bowl. Add half and half, wine, mustard, and 1 1/2 teaspoons coarse salt; 
+                                whisk to blend. Add baguette pieces; fold gently into egg mixture. Let soak 30 minutes, 
+                                stirring occasionally.',
 
-                                Meanwhile, heat 2 tablespoons oil in large pot over medium-high heat. Add shallots and sauté until soft, stirring frequently, about 5 minutes. Add kale; cover and cook 2 minutes. Uncover and stir until kale is wilted but still bright green, about 5 minutes (kale will be a bit crunchy).
+                                'Meanwhile, heat 2 tablespoons oil in large pot over medium-high heat. Add shallots and sauté 
+                                until soft, stirring frequently, about 5 minutes. Add kale; cover and cook 2 minutes. Uncover 
+                                and stir until kale is wilted but still bright green, about 5 minutes (kale will be a bit crunchy).',
 
-                                Reduce oven temperature to 350°F. Generously butter 13x9x2-inch baking dish. Using slotted spoon, transfer half of bread from egg mixture to prepared baking dish, arranging to cover most of dish. Spoon half of kale over bread. Spoon half of squash over bread and kale; sprinkle with half of cheese. Repeat with remaining bread, kale, squash, and cheese. Pour remaining egg mixture over bread pudding.
+                                'Reduce oven temperature to 350°F. Generously butter 13x9x2-inch baking dish. Using slotted spoon, 
+                                transfer half of bread from egg mixture to prepared baking dish, arranging to cover most of dish. 
+                                Spoon half of kale over bread. Spoon half of squash over bread and kale; sprinkle with half of 
+                                cheese. Repeat with remaining bread, kale, squash, and cheese. Pour remaining egg mixture over 
+                                bread pudding.',
 
-                                Cover bread pudding with foil. Bake 20 minutes. Remove foil; bake uncovered until custard is set and bread feels springy to touch, about 20 minutes longer.
+                                'Cover bread pudding with foil. Bake 20 minutes. Remove foil; bake uncovered until custard is 
+                                set and bread feels springy to touch, about 20 minutes longer.',
 
-                                Preheat broiler; broil pudding until cheese browns slightly, about 2 minutes. Cool 5 minutes and serve.',
+                                'Preheat broiler; broil pudding until cheese browns slightly, about 2 minutes. Cool 5 minutes 
+                                and serve.'],
                   cooking_time: { total: 95, prep: 30, cook: 45, inactive: 40 },
                   serves:       6,
                   difficulty:   'Medium',
