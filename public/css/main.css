@@ -75,11 +75,21 @@ body {
   text-align: center;
 }
 
-.dl-horizontal dt {
+.search .form-control {
+  width: 400px;
+  height: 43px;
+  color: #2c3e50;
+  background-color: #ffffff;
+}
+
+.dl-horizontal dt dd {
+  margin-top: 15px;
+  margin-bottom: 10px;
   text-align: left;
   /*margin-bottom: 1em;*/
   /*width: auto;*/
   padding-right: 1em;
+  lin
 }
 
 .recipes h3 {

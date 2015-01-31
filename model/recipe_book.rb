@@ -20,12 +20,27 @@ class RecipeBook
                                 'sour cream' => 'to taste',
                                 'parsley' => 'for garnish'
                               },
-                  preparation: 'In a 6-quart pan, over medium high heat, add butter and onions and cook, stirring often, until onions are limp. Add broth, carrots, and ginger. Cover and bring to a boil. Reduce heat and simmer until carrots are tender when pierced.
-                                Remove from heat and transfer to a blender. Don\'t fill the blender more than half way, do it in batches if you have to. Cover the blender and then hold a kitchen towel over the top of the blender*. Be careful when blending hot liquids as the mixture can spurt out of the blender. Pulse the blender to start it and then puree until smooth. Return to the pan and add cream, stir over high heat until hot. For a smoother flavor bring soup to a boil, add salt and pepper, to taste.
+                  preparation: ['In a 6-quart pan, over medium high heat, add butter and onions and cook, 
+                                stirring often, until onions are limp. Add broth, carrots, and ginger. 
+                                Cover and bring to a boil. Reduce heat and simmer until carrots are 
+                                tender when pierced.',
+                                
+                                'Remove from heat and transfer to a blender. Don\'t fill the blender more 
+                                than half way; do it in batches if you have to. Cover the blender and then 
+                                hold a kitchen towel over the top of the blender*. Be careful when blending 
+                                hot liquids, as the mixture can spurt out of the blender. Pulse the blender to 
+                                start it and then puree until smooth. Return to the pan and add cream, stir 
+                                over high heat until hot. For a smoother flavor bring soup to a boil, add salt 
+                                and pepper, to taste.',
 
-                                Ladle into bowls and garnish with dollop sour cream and parsley sprigs.
+                                'Ladle into bowls and garnish with a dollop of sour cream and parsley sprigs.',
 
-                                *When blending hot liquids: Remove liquid from the heat and allow to cool for at least 5 minutes. Transfer liquid to a blender or food processor and fill it no more than halfway. If using a blender, release one corner of the lid. This prevents the vacuum effect that creates heat explosions. Place a towel over the top of the machine, pulse a few times then process on high speed until smooth.',
+                                '*When blending hot liquids: Remove liquid from the heat and allow to cool 
+                                for at least 5 minutes. Transfer liquid to a blender or food processor and 
+                                fill it no more than halfway. If using a blender, release one corner of 
+                                the lid. This prevents the vacuum effect that creates heat explosions. Place 
+                                a towel over the top of the machine, pulse a few times then process on 
+                                high speed until smooth.'],
                   cooking_time: { total: 95, prep: 30, cook: 45, inactive: 20 },
                   serves:       8,
                   difficulty:  'Easy',
@@ -49,7 +64,19 @@ class RecipeBook
                                 'teaspoon dried thyme' => 0.5,
                                 'tablespoons cornmeal' => 2
                               },
-                  preparation:  'Heat oven to 400°. Heat pizza stone on bottom rack (or use an inverted 11-in x 16-in cookie sheet, not heated). Toss squash with 1 tsp oil, 1/8 tsp salt and 1/8 tsp pepper. On a baking sheet, cook squash until soft and lightly browned, 25 minutes, stirring halfway through; set aside. In a large skillet over medium-high heat, heat remaining 1 tbsp oil. Cook onion (season with remaining 1/8 tsp salt and 1/8 tsp pepper), stirring, until light brown, 10 minutes. Add 2 tbsp water; cook, stirring, until brown, 5 minutes. Remove from heat. Turn oven up to 450°. Sprinkle flour on a flat surface. Press dough into a 15-inch circle or 10-in x 16-in rectangle. Top with squash, onion, spinach, cheese and thyme. Dust stone or inverted sheet with cornmeal; place pizza on it. Bake until crust is crispy and cheese melts, 10 to 12 minutes.',
+                  preparation: ['Heat oven to 400°. Heat pizza stone on bottom rack (or use an inverted 11-in 
+                                x 16-in cookie sheet, not heated). Toss squash with 1 tsp oil, 1/8 tsp salt 
+                                and 1/8 tsp pepper. On a baking sheet, cook squash until soft and lightly browned, 
+                                25 minutes, stirring halfway through; set aside.',
+                                
+                                'In a large skillet over medium-high heat, heat remaining 1 tbsp oil. Cook onion 
+                                (season with remaining 1/8 tsp salt and 1/8 tsp pepper), stirring, until light brown, 
+                                10 minutes. Add 2 tbsp water; cook, stirring, until brown, 5 minutes. Remove from heat.',
+                                
+                                'Turn oven up to 450°. Sprinkle flour on a flat surface. Press dough into a 15-inch 
+                                circle or 10-in x 16-in rectangle. Top with squash, onion, spinach, cheese and thyme. 
+                                Dust stone or inverted sheet with cornmeal; place pizza on it. Bake until crust is crispy
+                                and cheese melts, 10 to 12 minutes.'],
                   cooking_time: { total: 60, prep: 20, cook: 40, inactive: 00 },
                   serves:       4,
                   difficulty:   'Easy',
@@ -73,10 +100,21 @@ class RecipeBook
                                 'coarse salt' => 'to taste',
                                 'ground pepper' => 'to taste'
                               },
-                  preparation:  'Preheat oven to 450 degrees. Place carrots and cauliflower on a rimmed baking sheet; toss with cumin and 2 tablespoons oil. Season with salt and pepper. Spread half the vegetables on a second baking sheet. Roast until browned and tender, 25 to 30 minutes, rotating sheets and tossing halfway through. Cool to room temperature.
-                                Meanwhile, in a medium saucepan, bring 1 1/4 cups salted water to a boil. Stir in couscous; cover and remove from heat. Let stand until tender, 5 minutes. Fluff with a fork; set aside to cool, uncovered.
-                                Make dressing: In a small bowl, whisk together lemon zest and juice and remaining tablespoon oil; season with salt and pepper.
-                                In a large bowl, combine roasted vegetables with couscous, chickpeas, and scallions. Place arugula on a serving platter, and drizzle with 1 tablespoon dressing. Add remaining dressing to couscous mixture, and toss; serve over arugula.',
+                  preparation: ['Preheat oven to 450 degrees. Place carrots and cauliflower on a rimmed baking 
+                                sheet; toss with cumin and 2 tablespoons oil. Season with salt and pepper. Spread 
+                                half the vegetables on a second baking sheet. Roast until browned and tender, 
+                                25 to 30 minutes, rotating sheets and tossing halfway through. Cool to room temperature.',
+                                
+                                'Meanwhile, in a medium saucepan, bring 1 1/4 cups salted water to a boil. Stir in 
+                                couscous; cover and remove from heat. Let stand until tender, 5 minutes. Fluff with 
+                                a fork; set aside to cool, uncovered.',
+                                
+                                'Make dressing: In a small bowl, whisk together lemon zest and juice and remaining 
+                                tablespoon of oil; season with salt and pepper.',
+                                
+                                'In a large bowl, combine roasted vegetables with couscous, chickpeas, and scallions. 
+                                Place arugula on a serving platter, and drizzle with 1 tablespoon dressing. Add 
+                                remaining dressing to couscous mixture, and toss; serve over arugula.'],
                   cooking_time: { total: 60, prep: 30, cook: 30, inactive: 0 },
                   serves:       4,
                   difficulty:   'Easy',
@@ -99,15 +137,22 @@ class RecipeBook
                                 'tablespoon shredded Parmesan cheese' => 1,
                                 'teaspoon paprika, optional' => 0.25
                               },
-                  preparation:  'Preheat large sauté pan on medium-high 2-3 minutes. Season both sides of fish with salt and pepper (wash hands). Place 1 tablespoon oil in pan, then add fish; cook 4 minutes on each side.
+                  preparation: ['Preheat large sauté pan on medium-high 2-3 minutes. Season both sides of fish 
+                                with salt and pepper (wash hands). Place 1 tablespoon oil in pan, then add fish; 
+                                cook 4 minutes on each side.',
 
-                                Place broth in shallow microwave-safe baking dish; separate gnocchi and stir into broth. Top with butter, cheese, and paprika; cover tightly with plastic wrap.
+                                'Place broth in shallow microwave-safe baking dish; separate gnocchi and stir into 
+                                broth. Top with butter, cheese, and paprika; cover tightly with plastic wrap.',
 
-                                Microwave on HIGH 10 minutes or until tender and most of liquid is absorbed. Let stand 5 minutes; do not remove plastic during stand time. Stir and serve.
+                                'Microwave on HIGH 10 minutes or until tender and most of liquid is absorbed. Let 
+                                stand 5 minutes; do not remove plastic during stand time. Stir and serve.',
 
-                                Pour pasta sauce over fish. Reduce heat to medium; cover and simmer 8-10 minutes or until fish separates easily.
+                                'Pour pasta sauce over fish. Reduce heat to medium; cover and simmer 8-10 minutes 
+                                or until fish separates easily.',
 
-                                Meanwhile, preheat second large sauté pan on medium-high 2-3 minutes. Place 1 tablespoon oil in pan, then add spinach and cover. Cook and stir 2-3 minutes or until spinach is wilted and tender. Serve fish and sauce over spinach.',
+                                'Meanwhile, preheat second large sauté pan on medium-high 2-3 minutes. Place 1 
+                                tablespoon oil in pan, then add spinach and cover. Cook and stir 2-3 minutes or 
+                                until spinach is wilted and tender. Serve fish and sauce over spinach.'],
                   cooking_time: { total: 30, prep: 10, cook: 20, inactive: 0 },
                   serves:       4,
                   difficulty:   'Easy',
@@ -130,13 +175,17 @@ class RecipeBook
                                 'cups sour cream' => 1.5,
                                 'cups hot cooked egg noodles' => 3
                               },
-                  preparation:  'Cut beef across grain into about 1 1/2x1/2-inch strips.
+                  preparation: ['Cut beef across grain into about 1 1/2x1/2-inch strips.',
 
-                                Cook mushrooms, onions and garlic in butter in 10-inch skillet over medium heat, stirring occasionally, until onions are tender; remove from skillet.
+                                'Cook mushrooms, onions and garlic in butter in 10-inch skillet over medium heat, 
+                                stirring occasionally, until onions are tender; remove from skillet.',
 
-                                Cook beef in same skillet until brown. Stir in 1 cup of the broth, the salt and Worcestershire sauce. Heat to boiling; reduce heat. Cover and simmer 15 minutes.
+                                'Cook beef in same skillet until brown. Stir in 1 cup of the broth, the salt and 
+                                Worcestershire sauce. Heat to boiling; reduce heat. Cover and simmer 15 minutes.',
 
-                                Stir remaining 1/2 cup broth into flour; stir into beef mixture. Add onion mixture; heat to boiling, stirring constantly. Boil and stir 1 minute. Stir in sour cream; heat until hot (do not boil). Serve over noodles.',
+                                'Stir remaining 1/2 cup broth into flour; stir into beef mixture. Add onion mixture; 
+                                heat to boiling, stirring constantly. Boil and stir 1 minute. Stir in sour cream; heat 
+                                until hot (do not boil). Serve over noodles.'],
                   cooking_time: { total: 38, prep: 20, cook: 18, inactive: 0 },
                   serves:       6,
                   difficulty:   'Easy',
@@ -157,13 +206,15 @@ class RecipeBook
                                 'Pepper' => 'to taste',
                                 'optional: spinach or kale, chopped' => 1
                               },
-                  preparation:  'Cook the sausage in the same large stew pot you\'ll use to cook the soup, drain excess fat and return sausage to pot.
+                  preparation: ['Cook the sausage in the same large stew pot you\'ll use to cook the soup, drain excess 
+                                fat and return sausage to pot.',
 
-                                Add the chicken broth and evaporated milk and bring to a boil.
+                                'Add the chicken broth and evaporated milk and bring to a boil.',
 
-                                Reduce heat so soup simmers. Add potatoes, onions, seasoning, salt and pepper.
+                                'Reduce heat so soup simmers. Add potatoes, onions, seasoning, salt and pepper.',
 
-                                The soup is done when the potatoes are cooked through, about 20-30 minutes. If using spinach or kale, add during the last few minutes of cooking.',
+                                'The soup is done when the potatoes are cooked through, about 20-30 minutes. If using 
+                                spinach or kale, add during the last few minutes of cooking.'],
                   cooking_time: { total: 40, prep: 15, cook: 25, inactive: 0 },
                   serves:       8,
                   difficulty:   'Easy',
@@ -186,11 +237,17 @@ class RecipeBook
                                 'salt' => 'to taste',
                                 'pepper' => 'to taste'
                               },
-                  preparation:  'Bring a pot of water to a boil. Add gnocchi and cook for 2 minutes. Drain and return to the pot. Toss warm gnocchi with 1 tablespoon butter and set aside.
+                  preparation: ['Bring a pot of water to a boil. Add gnocchi and cook for 2 minutes. Drain and 
+                                return to the pot. Toss warm gnocchi with 1 tablespoon butter and set aside.',
 
-                                Meanwhile, melt remaining 2 tablespoons of butter in a large, flat-sided sauté pan over medium heat. Cook the butter until it begins to bubble and turn light golden brown, about 3 minutes. Be careful not to let it burn. Add the zucchini, squash, corn, and garlic and sauté until warmed through, another 2 - 3 minutes.
+                                'Meanwhile, melt remaining 2 tablespoons of butter in a large, flat-sided sauté 
+                                pan over medium heat. Cook the butter until it begins to bubble and turn light 
+                                golden brown, about 3 minutes. Be careful not to let it burn. Add the zucchini, 
+                                squash, corn, and garlic and sauté until warmed through, another 2 - 3 minutes.',
 
-                                Turn off heat and stir the cooked gnocchi into the vegetables. Add a generous squeeze of lemon juice, and salt and pepper to taste. Transfer to a serving bowl and top with small hunks of goat cheese and a sprinkling of chopped parsley.',
+                                'Turn off heat and stir the cooked gnocchi into the vegetables. Add a generous 
+                                squeeze of lemon juice, and salt and pepper to taste. Transfer to a serving bowl 
+                                and top with small hunks of goat cheese and a sprinkling of chopped parsley.'],
                   cooking_time: { total: 45, prep: 30, cook: 15, inactive: 0 },
                   serves:       2,
                   difficulty:   'Easy',
@@ -211,19 +268,28 @@ class RecipeBook
                                 'large eggs' => 3,
                                 'oz Gruyère, coarsely grated (1 cup)' => 2
                               },
-                  preparation:  'Put oven rack in middle position and preheat oven to 450°F.
+                  preparation: ['Put oven rack in middle position and preheat oven to 450°F.',
 
-                                Fit pie dough into pie plate and lightly prick all over. Bake according to package instructions, then transfer crust in pie plate to a rack.
+                                'Fit pie dough into pie plate and lightly prick all over. Bake according to package 
+                                instructions, then transfer crust in pie plate to a rack.',
 
-                                Reduce oven temperature to 350°F.
+                                'Reduce oven temperature to 350°F.',
 
-                                While crust bakes, cook bacon in a 12-inch heavy skillet over moderately high heat, stirring occasionally, until just crisp, about 6 minutes. Transfer bacon with a slotted spoon to a paper-towel-lined plate, reserving fat in skillet.
+                                'While crust bakes, cook bacon in a 12-inch heavy skillet over moderately high heat, 
+                                stirring occasionally, until just crisp, about 6 minutes. Transfer bacon with a slotted 
+                                spoon to a paper-towel-lined plate, reserving fat in skillet.',
 
-                                Add zucchini and 1/4 teaspoon salt to fat in skillet and sauté over moderately high heat, stirring frequently, until zucchini is tender and starting to brown, about 5 minutes, then transfer with slotted spoon to a plate.
+                                'Add zucchini and 1/4 teaspoon salt to fat in skillet and sauté over moderately high heat, 
+                                stirring frequently, until zucchini is tender and starting to brown, about 5 minutes, then 
+                                transfer with slotted spoon to a plate.',
 
-                                Heat cream, milk, pepper, and remaining 1/4 teaspoon salt in a 1- to 2-quart saucepan until mixture reaches a bare simmer, then remove from heat.
+                                'Heat cream, milk, pepper, and remaining 1/4 teaspoon salt in a 1- to 2-quart saucepan 
+                                until mixture reaches a bare simmer, then remove from heat.',
 
-                                Whisk together eggs in a large heatproof bowl, then gradually whisk in hot cream mixture until combined. Stir in bacon, zucchini, and cheese and pour into piecrust. Bake until filling is just set, 25 to 30 minutes. Transfer quiche in pan to rack to cool slightly, about 20 minutes.',
+                                'Whisk together eggs in a large heatproof bowl, then gradually whisk in hot cream mixture 
+                                until combined. Stir in bacon, zucchini, and cheese and pour into piecrust. Bake until 
+                                filling is just set, 25 to 30 minutes. Transfer quiche in pan to rack to cool slightly, 
+                                about 20 minutes.'],
                   cooking_time: { total: 50, prep: 10, cook: 10, inactive: 30 },
                   serves:       6,
                   difficulty:   'Easy',
@@ -234,7 +300,8 @@ class RecipeBook
       Recipe.new( id:           9,
                   name:         'Pumpkin-Pecan Pie with Whiskey Butter Sauce',
                   category:     'Dessert',
-                  ingredients:{ 'cup cooked pumpkin purée' => 1,
+                  ingredients:{ '** PUMPKIN FILLING **' => 0,
+                                'cup cooked pumpkin purée' => 1,
                                 'cup firmly packed light brown sugar' => 0.25,
                                 'tablespoons sugar' => 2,
                                 'large egg, beaten until frothy' => 1,
@@ -245,6 +312,7 @@ class RecipeBook
                                 'teaspoon ground cinnamon' => 0.25,
                                 'pinch of ground allspice' => 1,
                                 'pinch of ground nutmeg' => 1,
+                                '** PECAN SYRUP **' => 0,
                                 'cup sugar' => 0.75,
                                 'cup dark corn syrup' => 0.75,
                                 'small eggs' => 2,
@@ -253,6 +321,7 @@ class RecipeBook
                                 'pinch salt' => 1,
                                 'pinch ground cinnamon' => 1,
                                 'cup pecan pieces  ' => 0.75,
+                                '** WHISKEY BUTTER SAUCE **' => 0,
                                 'tablespoons unsalted butter (1/2 stick)' => 4,
                                 'cup sugar' => 0.33,
                                 'large egg' => 1,
@@ -260,23 +329,26 @@ class RecipeBook
                                 'cup heavy cream' => 0.25,
                                 'cup bourbon whiskey' => 0.25
                               },
-                  preparation:  'Pumpkin Filling
-                                Combine all the ingredients thoroughly in a medium bowl; set aside.
+                  preparation: ['Pumpkin Filling: Combine all the ingredients thoroughly in a medium bowl; set aside.',
 
-                                Pecan Syrup
-                                Combine all the ingredients thoroughly in a medium bowl; set aside.
+                                'Pecan Syrup: Combine all the ingredients thoroughly in a medium bowl; set aside.',
 
-                                Assembly
-                                Preheat the oven to 325°F. Grease an 8-inch springform cake pan.
+                                'Assembly: Preheat the oven to 325°F. Grease an 8-inch springform cake pan.',
 
-                                Roll out the dough on a lightly floured work surface to 3/16 inch. Very lightly flour the top of the dough and fold it into quarters. Carefully place the dough in the greased cake pan. Press firmly in place and trim the edges. Chill for 15 minutes.
+                                'Roll out the dough on a lightly floured work surface to 3/16 inch. Very lightly flour 
+                                the top of the dough and fold it into quarters. Carefully place the dough in the greased 
+                                cake pan. Press firmly in place and trim the edges. Chill for 15 minutes.',
 
-                                Spoon the Pumpkin Filling into the pan, spreading evenly to distribute. Gently pour the Pecan Syrup on top. Bake until a knife inserted in the center comes out clean, about 1 hour and 45 minutes. Cool and serve with Whiskey Butter Sauce.
+                                'Spoon the Pumpkin Filling into the pan, spreading evenly to distribute. Gently pour 
+                                the Pecan Syrup on top. Bake until a knife inserted in the center comes out clean, 
+                                about 1 hour and 45 minutes. Cool and serve with Whiskey Butter Sauce.',
 
-                                Whiskey Butter Sauce
-                                Melt the butter in the top of a double boiler set over gently simmering water.
+                                'Whiskey Butter Sauce: Melt the butter in the top of a double boiler set over gently simmering water.',
 
-                                Beat the sugar and egg in a small bowl until blended. Stir the egg mixture into the butter. Add the hot water and stir until the mixture coats the back of a spoon, about 7 minutes. Remove from the double boiler and let cool to room temperature. Stir in the cream and whiskey.',
+                                'Beat the sugar and egg in a small bowl until blended. Stir the egg mixture into the 
+                                butter. Add the hot water and stir until the mixture coats the back of a spoon, about 
+                                7 minutes. Remove from the double boiler and let cool to room temperature. Stir in 
+                                the cream and whiskey.'],
                   cooking_time: { total: 120, prep: 15, cook: 15, inactive: 90 },
                   serves:       8,
                   difficulty:   'Medium',
@@ -296,7 +368,9 @@ class RecipeBook
                                 'teaspoon minced garlic' => 1,
                                 'pinch ground cayenne pepper (optional)' => 1
                               },
-                  preparation:  'In a medium bowl, mash together the avocados, lime juice, and salt. Mix in onion, cilantro, tomatoes, and garlic. Stir in cayenne pepper. Refrigerate 1 hour for best flavor, or serve immediately.',
+                  preparation: ['In a medium bowl, mash together the avocados, lime juice, and salt. Mix in onion, 
+                                cilantro, tomatoes, and garlic. Stir in cayenne pepper. Refrigerate 1 hour for 
+                                best flavor, or serve immediately.'],
                   cooking_time: { total: 10, prep: 10, cook: 0, inactive: 0 },
                   serves:       4,
                   difficulty:   'Easy',
@@ -319,7 +393,7 @@ class RecipeBook
                                 'bunches Tuscan kale (about 1 pound), ribs removed, kale coarsely chopped' => 2,
                                 'ounces extra-sharp cheddar cheese, coarsely grated' => 8
                               },
-                  preparation:[ 'Preheat oven to 400°F. Toss squash with 1 tablespoon oil on rimmed baking sheet. 
+                  preparation: ['Preheat oven to 400°F. Toss squash with 1 tablespoon oil on rimmed baking sheet. 
                                 Sprinkle with coarse salt; bake until squash is tender, turning with spatula occasionally, 
                                 20 to 25 minutes.',
 
@@ -362,8 +436,15 @@ class RecipeBook
                                 'Kosher salt' => 'to taste',
                                 'freshly ground pepper' => 'to taste'
                               },
-                  preparation:  'Preheat oven to 425°. Rub off papery skins from outside of garlic and trim 1/2-inch off top. Place on a sheet of foil, drizzle with 1 Tbsp. oil, and season with salt and pepper. Wrap up in the foil, place on a baking sheet, and roast until tender, 30–35 minutes; let cool slightly.
-                                Squeeze garlic cloves into a food processor. Add black-eyed peas, lemon juice, and cayenne, and pulse until a coarse purée forms. With motor running, drizzle in remaining 4 Tbsp. oil. Transfer purée to a medium bowl and mix in chives and parsley; season with salt and pepper.',
+                  preparation: ['Preheat oven to 425°. Rub off papery skins from outside of garlic and trim 1/2-inch 
+                                off top. Place on a sheet of foil, drizzle with 1 Tbsp. oil, and season with salt and 
+                                pepper. Wrap up in the foil, place on a baking sheet, and roast until tender, 30–35 
+                                minutes; let cool slightly.',
+                                
+                                'Squeeze garlic cloves into a food processor. Add black-eyed peas, lemon juice, and 
+                                cayenne, and pulse until a coarse purée forms. With motor running, drizzle in remaining 
+                                4 Tbsp. oil. Transfer purée to a medium bowl and mix in chives and parsley; season with 
+                                salt and pepper.'],
                   cooking_time: { total: 50, prep: 10, cook: 40, inactive: 30 },
                   serves:       4,
                   difficulty:   'Easy',
@@ -387,13 +468,17 @@ class RecipeBook
                                 'Coarse salt' => 'to taste',
                                 'ground pepper' => 'to taste'
                               },
-                  preparation:  'Heat broiler. Place salmon fillets on a rimmed baking sheet; season generously with salt and pepper. Broil until fish is just cooked through, 8 to 10 minutes. When cool enough to handle, cut into large chunks.
+                  preparation: ['Heat broiler. Place salmon fillets on a rimmed baking sheet; season generously with salt 
+                                and pepper. Broil until fish is just cooked through, 8 to 10 minutes. When cool enough to 
+                                handle, cut into large chunks.',
 
-                                In a large bowl, whisk together vinegar, oil, and honey; season with salt and pepper. Set aside 2 tablespoons dressing.
+                                'In a large bowl, whisk together vinegar, oil, and honey; season with salt and pepper. Set 
+                                aside 2 tablespoons dressing.',
 
-                                To remaining dressing, add napa and red cabbage, carrots, onion, almonds, and apricots; toss.
+                                'To remaining dressing, add napa and red cabbage, carrots, onion, almonds, and apricots; 
+                                toss.',
 
-                                Divide salad among four plates; top with salmon. Drizzle reserved dressing over salmon.',
+                                'Divide salad among four plates; top with salmon. Drizzle reserved dressing over salmon.'],
                   cooking_time: { total: 25, prep: 15, cook: 10, inactive: 0 },
                   serves:       4,
                   difficulty:   'Easy',
@@ -425,17 +510,28 @@ class RecipeBook
                                 'Kosher salt' => 'to taste',
                                 'freshly ground black pepper' => 'to taste'
                               },
-                  preparation:  'Line a baking sheet with parchment paper or a silicone baking mat; set aside.
+                  preparation: ['Line a baking sheet with parchment paper or a silicone baking mat; set aside.',
 
-                                In a large bowl, combine flour, baking powder, sugar, baking soda and salt. Add cold butter, using your fingers to work the butter into the dry ingredients until it resembles coarse crumbs. Add buttermilk and stir using a rubber spatula until a soft dough forms.
+                                'In a large bowl, combine flour, baking powder, sugar, baking soda and salt. Add cold 
+                                butter, using your fingers to work the butter into the dry ingredients until it resembles 
+                                coarse crumbs. Add buttermilk and stir using a rubber spatula until a soft dough forms.',
 
-                                Working on a lightly floured surface, knead the dough 3-4 times until it comes together. Using a rolling pin, roll the dough into a 10- by 7-inch rectangle, about 1-inch thick. Cut out 6-8 rounds using a 3-inch biscuit or cookie cutter. Place biscuits onto the prepared baking sheet; set aside in the refrigerator.
+                                'Working on a lightly floured surface, knead the dough 3-4 times until it comes together. 
+                                Using a rolling pin, roll the dough into a 10- by 7-inch rectangle, about 1-inch thick. 
+                                Cut out 6-8 rounds using a 3-inch biscuit or cookie cutter. Place biscuits onto the 
+                                prepared baking sheet; set aside in the refrigerator.',
 
-                                Preheat oven to 400 degrees F. Lightly oil a 9x13 baking dish or coat with nonstick spray.
+                                'Preheat oven to 400 degrees F. Lightly oil a 9x13 baking dish or coat with nonstick spray.',
 
-                                To make the filling, melt butter in a large skillet over medium high heat. Add garlic, onion, carrots and celery, and cook, stirring occasionally, until tender, about 3-4 minutes. Whisk in flour until lightly browned, about 1 minute. Gradually whisk in chicken broth, milk and thyme, and cook, whisking constantly, until slightly thickened, about 1-2 minutes. Stir in chicken and peas; season with salt and pepper, to taste.
+                                'To make the filling, melt butter in a large skillet over medium high heat. Add garlic, 
+                                onion, carrots and celery, and cook, stirring occasionally, until tender, about 3-4 
+                                minutes. Whisk in flour until lightly browned, about 1 minute. Gradually whisk in chicken 
+                                broth, milk and thyme, and cook, whisking constantly, until slightly thickened, about 1-2 
+                                minutes. Stir in chicken and peas; season with salt and pepper, to taste.',
 
-                                Add chicken mixture to prepared baking dish. Place into oven and bake for 15 minutes. Top with prepared biscuits and bake until tops are golden brown, an additional 10-12 minutes. Let cool 5 minutes before serving.',
+                                'Add chicken mixture to prepared baking dish. Place into oven and bake for 15 minutes. 
+                                Top with prepared biscuits and bake until tops are golden brown, an additional 10-12 minutes. 
+                                Let cool 5 minutes before serving.'],
                   cooking_time: { total: 70, prep: 30, cook: 40, inactive: 0 },
                   serves:       4,
                   difficulty:   'Medium',
@@ -465,23 +561,32 @@ class RecipeBook
                                 'black pepper' => 'to taste',
                                 'shredded Monterey Jack cheese, or GF vegan cheese' => 'if desired'
                               },
-                  preparation:  'Preheat your oven to 350ºF. Choose a baking dish that would hold 8 enchiladas.
+                  preparation: ['Preheat your oven to 350ºF. Choose a baking dish that would hold 8 enchiladas.',
 
-                                Make your Quickie Green Chile Sauce by combining the broth, dissolved arrowroot, green chiles, garlic and spices in a sauce pan and heating over medium-high heat. Bring to a high simmer. Simmer until thickened. Taste test. Set aside.
+                                'Make your Quickie Green Chile Sauce by combining the broth, dissolved arrowroot, green 
+                                chiles, garlic and spices in a sauce pan and heating over medium-high heat. Bring to a 
+                                high simmer. Simmer until thickened. Taste test. Set aside.',
 
-                                In the meantime, using a mixing bowl, combine the drained black beans with minced garlic and lime juice. Toss to coat the beans and set aside.
+                                'In the meantime, using a mixing bowl, combine the drained black beans with minced garlic 
+                                and lime juice. Toss to coat the beans and set aside.',
 
-                                In a separate bowl combine the lightly smashed sweet potatoes with the chopped green chiles; add the spices. Season with sea salt and pepper.
+                                'In a separate bowl combine the lightly smashed sweet potatoes with the chopped green 
+                                chiles; add the spices. Season with sea salt and pepper.',
 
-                                Pour about 1/4 cup of the Quickie Green Chile Sauce into the bottom of the baking dish.
+                                'Pour about 1/4 cup of the Quickie Green Chile Sauce into the bottom of the baking dish.',
 
-                                Grab a skillet and heat a dash of oil. Lightly cook the corn tortillas to soften them - one at a time - as you stuff each one.
+                                'Grab a skillet and heat a dash of oil. Lightly cook the corn tortillas to soften them - 
+                                one at a time - as you stuff each one.',
 
-                                Lay the first hot tortilla in the sauced baking dish; wet it with the sauce. Spoon 1/8 of the sweet potato mixture down the center. Top with 1/8 of the black beans.
+                                'Lay the first hot tortilla in the sauced baking dish; wet it with the sauce. Spoon 1/8 
+                                of the sweet potato mixture down the center. Top with 1/8 of the black beans.',
 
-                                Wrap and roll the tortilla to the end of the baking dish. Repeat for the remaining tortillas. Top with the rest of the sauce. If you like, top with a sprinkle of shredded Monterey Jack cheese or vegan cheese.
+                                'Wrap and roll the tortilla to the end of the baking dish. Repeat for the remaining 
+                                tortillas. Top with the rest of the sauce. If you like, top with a sprinkle of shredded 
+                                Monterey Jack cheese or vegan cheese.',
 
-                                Bake for 20 to 25 minutes, until the enchiladas are piping hot and the sauce is bubbling around the edges.',
+                                'Bake for 20 to 25 minutes, until the enchiladas are piping hot and the sauce is bubbling 
+                                around the edges.'],
                   cooking_time: { total: 95, prep: 30, cook: 25, inactive: 0 },
                   serves:       4,
                   difficulty:   'Medium',
@@ -506,11 +611,20 @@ class RecipeBook
                                 'tablespoons 1% low-fat milk' => 2,
                                 'cooking spray' => 'available'
                               },
-                  preparation:  'Preheat oven to 375°.
+                  preparation: ['Preheat oven to 375°.',
 
-                                Heat olive oil in a large skillet over medium-high heat. Add onion; sauté for 3 minutes. Add squash; sauté for 5 minutes. Add apple; cook 6 minutes or until squash and apple are tender. Stir in salt and pepper. Remove from heat, and cool to room temperature. Gently stir in cheese and thyme.
+                                'Heat olive oil in a large skillet over medium-high heat. Add onion; sauté for 3 minutes. 
+                                Add squash; sauté for 5 minutes. Add apple; cook 6 minutes or until squash and apple are 
+                                tender. Stir in salt and pepper. Remove from heat, and cool to room temperature. Gently 
+                                stir in cheese and thyme.',
 
-                                Separate dough into 8 pieces. Roll each portion into a 5-inch circle on a lightly floured surface. Combine mustard and 2 teaspoons water in a small bowl. Lightly brush top sides of dough circles with mustard mixture. Spoon about 2 tablespoons squash mixture onto half of each circle, leaving a 1/4-inch border. Fold dough over filling; press edges together with a fork to seal. Brush milk over dough. Place turnovers 1 inch apart on a baking sheet lightly coated with cooking spray. Bake at 375° for 19 minutes or until golden brown. Serve warm.',
+                                'Separate dough into 8 pieces. Roll each portion into a 5-inch circle on a lightly 
+                                floured surface. Combine mustard and 2 teaspoons water in a small bowl. Lightly brush 
+                                top sides of dough circles with mustard mixture. Spoon about 2 tablespoons squash mixture 
+                                onto half of each circle, leaving a 1/4-inch border. Fold dough over filling; press edges 
+                                together with a fork to seal. Brush milk over dough. Place turnovers 1 inch apart on a 
+                                baking sheet lightly coated with cooking spray. Bake at 375° for 19 minutes or until 
+                                golden brown. Serve warm.'],
                   cooking_time: { total: 60, prep: 20, cook: 40, inactive: 0 },
                   serves:       4,
                   difficulty:   'Easy',
@@ -532,11 +646,16 @@ class RecipeBook
                                 'kosher salt' => 'to taste',
                                 'black pepper' => 'to taste'
                               },
-                  preparation:  'Heat oven to 400° F. Heat the oil in a large ovenproof skillet over medium-high heat. Add the fennel, onion, and ¼ teaspoon each salt and pepper. Cook, tossing frequently, until beginning to soften, 8 to 10 minutes. Add the wine.
+                  preparation: ['Heat oven to 400° F. Heat the oil in a large ovenproof skillet over medium-high heat. 
+                                Add the fennel, onion, and ¼ teaspoon each salt and pepper. Cook, tossing frequently, 
+                                until beginning to soften, 8 to 10 minutes. Add the wine.',
 
-                                Season the cod with the coriander and ¼ teaspoon each salt and pepper and nestle in the vegetables. Transfer the skillet to oven and roast until the cod is opaque throughout, 8 to 12 minutes.
+                                'Season the cod with the coriander and ¼ teaspoon each salt and pepper and nestle in 
+                                the vegetables. Transfer the skillet to oven and roast until the cod is opaque throughout, 
+                                8 to 12 minutes.',
 
-                                Meanwhile, cook the couscous according to the package directions. Fluff with a fork and fold in the spinach. Serve with the cod and vegetables.',
+                                'Meanwhile, cook the couscous according to the package directions. Fluff with a fork 
+                                and fold in the spinach. Serve with the cod and vegetables.'],
                   cooking_time: { total: 30, prep: 10, cook: 20, inactive: 20 },
                   serves:       4,
                   difficulty:   'Easy',
@@ -557,17 +676,22 @@ class RecipeBook
                                 'cups cheddar cheese, shredded good quality' => 2,
                                 'cup breadcrumbs, buttered' => 0.5
                               },
-                  preparation:  'Preheat oven to 400°F.
+                  preparation: ['Preheat oven to 400°F.',
 
-                                Cook and drain macaroni according to package directions; set aside.
+                                'Cook and drain macaroni according to package directions; set aside.',
 
-                                In a large saucepan melt butter. Add flour mixed with salt and pepper, using a whisk to stir until well blended. Pour milk and cream in gradually; stirring constantly. Bring to boiling point and boil 2 minutes (stirring constantly). Reduce heat and cook (stirring constantly) 10 minutes. Add shredded cheddar little by little and simmer an additional 5 minutes, or until cheese melts.
+                                'In a large saucepan melt butter. Add flour mixed with salt and pepper, using a whisk 
+                                to stir until well blended. Pour milk and cream in gradually; stirring constantly. 
+                                Bring to boiling point and boil 2 minutes (stirring constantly). Reduce heat and cook 
+                                (stirring constantly) 10 minutes. Add shredded cheddar little by little and simmer an 
+                                additional 5 minutes, or until cheese melts.',
 
-                                Turn off flame.
+                                'Turn off flame.',
 
-                                Add macaroni to the saucepan and toss to coat with the cheese sauce.
+                                'Add macaroni to the saucepan and toss to coat with the cheese sauce.',
 
-                                Transfer macaroni to a buttered baking dish. Sprinkle with breadcrumbs. Bake 20 minutes until the top is golden brown.',
+                                'Transfer macaroni to a buttered baking dish. Sprinkle with breadcrumbs. Bake 20 minutes 
+                                until the top is golden brown.'],
                   cooking_time: { total: 40, prep: 20, cook: 20, inactive: 0 },
                   serves:       8,
                   difficulty:   'Easy',
@@ -588,18 +712,24 @@ class RecipeBook
                                 'teaspoons nutmeg' => 1.5,
                                 'teaspoon cinnamon' => 1
                               },
-                  preparation:  'In a large bowl with a mixer, beat the egg yolks together with the sugar for approx 10 minutes (you want the mixture to be firm and the colour of butter).
-                                Very slowly, add in the bourbon and brandy - just a little at a time. When the bourbon and brandy have been added, allow the mixture to cool in the fridge for at least 4 hours.
+                  preparation: ['In a large bowl with a mixer, beat the egg yolks together with the sugar for approx 
+                                10 minutes (you want the mixture to be firm and the colour of butter).',
 
-                                Once the mixture is fully chilled, stir in the milk. Stir in 1 & 1/2 teaspoons of ground nutmeg,one teaspoon of cinnamon and 1 tablespoon of vanilla extract.
+                                'Very slowly, add in the bourbon and brandy - just a little at a time. When the 
+                                bourbon and brandy have been added, allow the mixture to cool in the fridge for at 
+                                least 4 hours.',
 
-                                In a separate bowl, beat the cream with a mixer on high speed until the cream forms stiff peaks.
+                                'Once the mixture is fully chilled, stir in the milk. Stir in 1 & 1/2 teaspoons of 
+                                ground nutmeg,one teaspoon of cinnamon and 1 tablespoon of vanilla extract.',
 
-                                In another bowl, beat the egg whites until stiff peaks form.
+                                'In a separate bowl, beat the cream with a mixer on high speed until the cream forms 
+                                stiff peaks.',
 
-                                Gently fold the egg white mixture into the egg yolk mixture.
+                                'In another bowl, beat the egg whites until stiff peaks form.',
 
-                                Gently fold the cream into the egg mixture. Voila!',
+                                'Gently fold the egg white mixture into the egg yolk mixture.',
+
+                                'Gently fold the cream into the egg mixture. Voila!'],
                   cooking_time: { total: 270, prep: 90, cook: 0, inactive: 180 },
                   serves:       10,
                   difficulty:   'Easy',
@@ -621,11 +751,15 @@ class RecipeBook
                                 '15-oz coconut milk' => 1,
                                 'baby bok choy heads, sliced diagonally' => 4
                               },
-                  preparation:  'Finely chop or grate the garlic and ginger. Heat vegetable oil in a heavy-bottomed pot over medium-high heat. Add the ginger and garlic and saute for about one minute.
+                  preparation: ['Finely chop or grate the garlic and ginger. Heat vegetable oil in a heavy-bottomed 
+                                pot over medium-high heat. Add the ginger and garlic and saute for about one minute.',
 
-                                Add the onion, pepper and carrot and saute one minute longer. Add the chicken and cook 5 minutes, turning, until browned.
+                                'Add the onion, pepper and carrot and saute one minute longer. Add the chicken and 
+                                cook 5 minutes, turning, until browned.',
 
-                                Add the chicken broth and coconut milk and bring to a boil. Add the baby bok choy and cook a few minutes until the bok choy is tender. Serve in soup bowls, or over rice.',
+                                'Add the chicken broth and coconut milk and bring to a boil. Add the baby bok choy 
+                                and cook a few minutes until the bok choy is tender. Serve in soup bowls, or over 
+                                rice.'],
                   cooking_time: { total: 40, prep: 20, cook: 20, inactive: 0 },
                   serves:       4,
                   difficulty:   'Easy',

@@ -15,7 +15,11 @@
           <dd><%= "#{key.to_s.capitalize}: #{value.to_s} mins" %></dd>
         <% end %>  
         <dt>Rating:</dt>
-        <dd><%= "#{@recipe.rating[0]} out of #{@recipe.rating[1]} #{@recipe.rating[2]}" %></dd>
+        <% if @recipe.rating[0].to_s.include?("available") %>
+           <dd><%= "no rating available" %></dd>
+        <% else %>
+           <dd><%= "#{@recipe.rating[0]} out of #{@recipe.rating[1]} #{@recipe.rating[2]}" %></dd>
+        <% end %>   
         <dt>Serves:</dt>
         <dd><%= @recipe.serves %></dd>
         <dt>Ingredients:</dt>
@@ -32,7 +36,9 @@
     <div class="col-md-10 col-md-offset-1">
       <dl class="dl-horizontal">  
         <dt>Preparation:</dt>
-        <dd> <%= @recipe.preparation %></dd>
+        <% @recipe.preparation.each_with_index do |step, index| %>
+          <dd><%= "\n#{index + 1}) #{step}\n" %></dd>
+        <% end %>  
         <dt>Source:</dt>
         <dd><a href="<%= @recipe.source %>" target="_blank"><%= @recipe.source %>></a></dd>
       </dl>

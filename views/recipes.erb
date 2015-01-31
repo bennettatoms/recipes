@@ -1,7 +1,7 @@
 <section class="container search">
   <form class="navbar-form" role="search">
     <div class="form-group">
-      <input type="text" name="search" value="<%= @search %>" class="form-control" placeholder="Search">
+      <input type="text" name="search" value="<%= @search %>" class="form-control" placeholder="By dish, ingredient, source, whatevs   ¯\_(ツ)_/¯">
     </div>
     <button type="submit" class="btn btn-success">Submit</button>
     <button type="reset"  class="btn btn-warning"
@@ -30,7 +30,12 @@
               <div class="col-xs-5">
                 <dl class="dl-horizontal">
                   <dt>Category: <%= recipe.category %></dt>
-                  <dt>Rating: <%= "#{recipe.rating[0]} out of #{recipe.rating[1]} #{recipe.rating[2]}" %></dt>
+                  <dt>Rating: </dt>
+                  <% if recipe.rating[0].to_s.include?("available") %>
+                    <dd><%= "no rating available" %></dd>
+                  <% else %>
+                    <dd><%= "#{recipe.rating[0]} out of #{recipe.rating[1]} #{recipe.rating[2]}" %></dd>
+                  <% end %>   
                 </dl>
               </div> 
               <div class="col-xs-7">
