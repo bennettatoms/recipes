@@ -1,7 +1,7 @@
 # This is the class file for the structure of every recipe on the website
 class Recipe
   attr_reader :id, :name, :category, :ingredients, :preparation
-  attr_reader :cooking_time, :difficulty, :rating, :image_file, :source
+  attr_reader :cooking_time, :difficulty, :rating, :image_file, :comment, :source
   attr_accessor :serves
 
   def initialize(args)
@@ -15,6 +15,7 @@ class Recipe
     @difficulty   = args[:difficulty]
     @rating       = args[:rating]
     @image_file   = args[:image_file]
+    @comment      = args[:comment]
     @source       = args[:source]
   end
 

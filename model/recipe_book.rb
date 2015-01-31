@@ -46,6 +46,12 @@ class RecipeBook
                   difficulty:  'Easy',
                   rating:       [5.0, 5.0, 'stars'],
                   image_file:   'ginger_carrot_soup.jpeg',
+                  comment:      'One of my FAVORITE soups! I "sauté" the onion in a bit of vegetable broth
+                                instead of butter...takes a bit longer, but healthy alternative with a cleaner 
+                                taste. I also use vegetable broth instead of chicken for the stock on this one. 
+                                Use a blender at the end on puree/liquify and it is so silky and creamy it 
+                                doesn\'t need added cream! I also a lot more ginger than is called for and a 
+                                bit of lemon squeezed in at the end.',
                   source:       'http://www.foodnetwork.com/recipes/ginger-carrot-soup-recipe.html'
                 ),
       Recipe.new( id:           2,
@@ -82,6 +88,10 @@ class RecipeBook
                   difficulty:   'Easy',
                   rating:       [3.3, 4.0, 'forks'],
                   image_file:   'butternut_squash_pizza.jpg',
+                  comment:      'This was good, a bit dry like some others said. I might use a mixture of cheese next 
+                                time. I did add a drizzle of balsamic reduction, as someone suggested, which was delicious 
+                                but didn\'t help much with the dryness. I cooked the squash along with the onion in the 
+                                pan instead of using the oven, and we cooked it on a pizza stone on the grill.',
                   source:       'http://www.epicurious.com/recipes/food/views/Butternut-Squash-Spinach-and-Goat-Cheese-Pizza-367831'
                 ),
       Recipe.new( id:           3,
@@ -120,6 +130,10 @@ class RecipeBook
                   difficulty:   'Easy',
                   rating:       [3.9, 4.0, 'stars'],
                   image_file:   'couscous_salad_with_vegetables.jpg',
+                  comment:      'This was excellent! Modified it for what I had on hand (broccoli in place of 
+                                cauliflower, white kidney beans for chick peas), but we thought it was fantastic. 
+                                Dressing is divine (added some garlic to mine). Thanks for a wonderful vegetarian 
+                                recipe!!!',
                   source:       'http://www.marthastewart.com/315061/couscous-salad-with-roasted-vegetables-a#Quick%20Main-Course%20Salad%20Recipes|/274818/quick-main-course-salad-recipes/@center/276948/dinner-tonight|315061'
                 ),
       Recipe.new( id:           4,
@@ -158,6 +172,7 @@ class RecipeBook
                   difficulty:   'Easy',
                   rating:       ['no rating available'],
                   image_file:   'salmon_puttanesca.jpg',
+                  comment:      'This was delicious, or my name isn\'t Ted Zickelman.',
                   source:       'http://www.publix.com/recipes-planning/aprons-simple-meals/salmon-puttanesca-over-spinach-with-buttered-gnocchi'
                 ),
       Recipe.new( id:           5,
@@ -191,6 +206,11 @@ class RecipeBook
                   difficulty:   'Easy',
                   rating:       [4.3, 5.0, 'stars'],
                   image_file:   'beef_stroganoff.jpg',
+                  comment:      'I made this for dinner tonight and let me tell you, it is AMAZING. If you like Noodles 
+                                and Company Steak Stroganoff, this is identical! I used stew meat because it was all 
+                                we had, but as long as you let it cook on low heat for longer to allow it to get tender, 
+                                it doesn\'t make a difference! I am so impressed with this recipe. I\'ll definitely be 
+                                making it again!',
                   source:       'http://www.bettycrocker.com/recipes/classic-beef-stroganoff/c17a904f-a8f6-48ae-bedb-5b301a8ea317'
                 ),
       Recipe.new( id:           6,
@@ -220,6 +240,10 @@ class RecipeBook
                   difficulty:   'Easy',
                   rating:       ['no rating available'],
                   image_file:   'tuscan_soup.jpg',
+                  comment:      'Delicious!  Made it tonight.  I used turkey sausage instead of regular, and didn\'t drain 
+                                off the fat.  Altogether awesome, though I think it needed a bit more salt.  Fair warning 
+                                - you will have a LOT of soup.  We gave some of it away to a neighbor and still have about 
+                                3-4 servings left.',
                   source:       'http://www.cozi.com/live-simply/recipes/warm-your-soul-tuscan-soup'
                 ),
       Recipe.new( id:           7,
@@ -253,6 +277,11 @@ class RecipeBook
                   difficulty:   'Easy',
                   rating:       ['no rating available'],
                   image_file:   'gnocchi_with_sweet_corn.jpg',
+                  comment:      'I made this the other night, with a couple modifications, and it was incredible! 
+                                I forgot to get goat cheese, so I added a couple tablespoons of cream to bulk up 
+                                the pan sauce a little. For some reason the gnocchi I had already had a somewhat 
+                                lemony flavor, so I left out the lemon too. So easy, fast, delicious, and versatile. 
+                                And most importantly, does not heat up the house.',
                   source:       'http://www.thekitchn.com/recipe-sweet-corn-squash-gnocchi-recipes-from-the-kitchn-173851'
                 ),
       Recipe.new( id:           8,
@@ -295,6 +324,9 @@ class RecipeBook
                   difficulty:   'Easy',
                   rating:       [3.5, 4.0, 'forks'],
                   image_file:   'quiche.jpg',
+                  comment:      'This has a tender, flavorful custard and great balance of flavors. Brought it to a pot 
+                                luck and it was the first thing gone in about 10 minutes. My zucchini- disdaining husband 
+                                couldn\'t get enough of it and has already asked me to make it again.',
                   source:       'http://www.epicurious.com/recipes/food/views/Zucchini-Bacon-and-Gruyere-Quiche-233259'
                 ),
       Recipe.new( id:           9,
@@ -354,6 +386,12 @@ class RecipeBook
                   difficulty:   'Medium',
                   rating:       [3.7, 4.0, 'forks'],
                   image_file:   'pecan_pumpkin_pie.jpg',
+                  comment:      'i made this for thanksgiving, and wow, what a hit! even grandma was piling on the whiskey 
+                                sauce. i left it optional on the side, in case people thought it might be too strong, and 
+                                people were putting it on their other desserts! i used my own pumpkin puree, and drained 
+                                it over paper towels and a colander for about a half hour before it was needed so the 
+                                pumpkin filling would stand up. i also found the crust a little hard to cut, it fell 
+                                apart somewhat.',
                   source:       'http://www.epicurious.com/recipes/food/views/Pumpkin-Pecan-Pie-with-Whiskey-Butter-Sauce-104141'
                 ),
       Recipe.new( id:           10,
@@ -376,6 +414,10 @@ class RecipeBook
                   difficulty:   'Easy',
                   rating:       [4.8, 5.0, 'stars'],
                   image_file:   'guacamole.jpg',
+                  comment:      'This is THE guacamole recipe. I am now officially the guacamole maker of my 
+                                friends and family - at their request. MY ADVICE: mix up the avocado, salt (measure 
+                                to preference) and lime juice as your base. TASTE THIS!! Once the base is to your 
+                                liking, the rest of the ingredients will just be added flavors.',
                   source:       'http://allrecipes.com/recipe/guacamole/detail.aspx'
                 ),
       Recipe.new( id:           11,
@@ -421,6 +463,8 @@ class RecipeBook
                   difficulty:   'Medium',
                   rating:       [4.2, 5.0, 'stars'],
                   image_file:   'butternut_squash_bread_pudding.jpg',
+                  comment:      'I love this recipe and it is a request at every Thanksgiving since its debut. At the same time 
+                                I curse the many steps it takes to get to the final product. Bottom line, it delicious!', 
                   source:       'http://www.bonappetit.com/recipe/butternut-squash-and-cheddar-bread-pudding'
                 ),
       Recipe.new( id:           12,
@@ -450,6 +494,8 @@ class RecipeBook
                   difficulty:   'Easy',
                   rating:       [3.0, 5.0, 'stars'],
                   image_file:   'black_eyed_pea_hummus.jpg',
+                  comment:      'Very tasty and healthy. All my family loved it. Will definitely made it again and 
+                                use it for special occasions.',
                   source:       'http://www.bonappetit.com/recipe/black-eyed-pea-hummus'
                 ),
       Recipe.new( id:           13,
@@ -484,6 +530,9 @@ class RecipeBook
                   difficulty:   'Easy',
                   rating:       [3.1, 5.0, 'stars'],
                   image_file:   'asian_salad_salmon.jpg',
+                  comment:      'This is a very good recipe, but the dressing, as written, was very bland. I fixed it up 
+                                with a few squirts of sriracha and a shake of low-sodium soy sauce. With that, it was 
+                                much better.',
                   source:       'http://www.marthastewart.com/317632/asian-salad-with-salmon#Quick%20Main-Course%20Salad%20Recipes|/274818/quick-main-course-salad-recipes/@center/276948/dinner-tonight|317632'
                 ),
       Recipe.new( id:           14,
@@ -537,6 +586,10 @@ class RecipeBook
                   difficulty:   'Medium',
                   rating:       ['no rating available'],
                   image_file:   'biscuit_pot_pie.jpg',
+                  comment:      'I just finished eating this and it is SO yummy! I love that it’s from scratch, since we 
+                                try to eat “real/whole foods”. Boiled 2 chicken breasts and used the onion, garlic, celery, 
+                                but subbed a bag of organic mixed veggies for the carrots. This will become a go-to meal 
+                                for sure.',
                   source:       'http://damndelicious.net/2013/12/23/biscuit-pot-pie/'
                 ),
       Recipe.new( id:           15,
@@ -592,6 +645,11 @@ class RecipeBook
                   difficulty:   'Medium',
                   rating:       ['no rating available'],
                   image_file:   'sweet_potato_black_bean_enchiladas.jpg',
+                  comment:      'This recipe was AMAZING. I cooked two sweet potatoes in the micro for 6min and cubed 
+                                them up with the spices. I used the garlic to cook with some cubed chicken tenderloins 
+                                (3). Used canned salsa verde & nonfat beans w/chilies already in them and I layered the 
+                                ingredients and made an enchilada pie for my husband and I. Can\'t wait to eat leftovers 
+                                for lunch tomorrow! YUM!',
                   source:       'http://glutenfreegoddess.blogspot.com/2006/10/sweet-potato-black-bean-enchiladas.html'
                 ),
       Recipe.new( id:           16,
@@ -630,6 +688,10 @@ class RecipeBook
                   difficulty:   'Easy',
                   rating:       [3.0, 5.0, 'stars'],
                   image_file:   'squash_apple_turnovers.jpg',
+                  comment:      'For all you people who got turned off by the dough, you just got the incorrect type. 
+                                I was standing in the aisle at the grocery store, and I took a chance on some pre-made 
+                                pie crust, and they came out fantastic. I love this recipe!! I did make one small change 
+                                in that I chose an herbed goat cheese, but I actually think it added to the overall dish.',
                   source:       'http://www.myrecipes.com/recipe/squash-apple-turnovers'
                 ),
       Recipe.new( id:           17,
@@ -661,6 +723,9 @@ class RecipeBook
                   difficulty:   'Easy',
                   rating:       [3.0, 5.0, 'stars'],
                   image_file:   'cod_couscous.jpg',
+                  comment:      'This was a great recipe! Everything blended so well together. Next time, I will saute 
+                                the spinach a little before adding to the couscous. I was very careful not to overcook 
+                                the fish. It was a tasty and healthy dish....a keeper!',
                   source:       'http://www.realsimple.com/food-recipes/browse-all-recipes/pan-roasted-cod-fennel-couscous'
                 ),
       Recipe.new( id:           18,
@@ -694,9 +759,11 @@ class RecipeBook
                                 until the top is golden brown.'],
                   cooking_time: { total: 40, prep: 20, cook: 20, inactive: 0 },
                   serves:       8,
-                  difficulty:   'Easy',
+                  difficulty:   'Medium',
                   rating:       [5.0, 5.0, 'stars'],
                   image_file:   'mac_n_cheese.jpg',
+                  comment:      'I am a culinary student at Brigham Young University and I even love this simple 
+                                recipe! It is wonderfully and classically delicious!',
                   source:       'http://www.food.com/recipe/fannie-farmers-classic-baked-macaroni-cheese-135350'
                 ),
       Recipe.new( id:           19,
@@ -735,6 +802,8 @@ class RecipeBook
                   difficulty:   'Easy',
                   rating:       [4.0, 4.0, 'forks'],
                   image_file:   'eggnog.jpg',
+                  comment:      'Absolutely delicious. I happened upon this recipe 5 days ago and decided to use 
+                                it for Christmas. Will be a regular part of our Christmas meal from here on out.',
                   source:       'http://www.epicurious.com/recipes/member/views/ADAMS-OLD-FASHIONED-EGG-NOG-50113914'
                 ),
       Recipe.new( id:           20,
@@ -765,6 +834,11 @@ class RecipeBook
                   difficulty:   'Easy',
                   rating:       ['no rating available'],
                   image_file:   'thai_chicken_soup.jpg',
+                  comment:      'This is a tasty, inexpensive meal to make, especially if you are watching your 
+                                budget and can\'t afford to go out for Thai food! I used tofu and kale instead 
+                                of chicken and bok choy. I would add a squeeze of lime, some red chili flakes 
+                                and maybe some basil leaves if you have them. It\'s good, but needs a little bit 
+                                of zing to it. :-)',
                   source:       'http://www.cozi.com/live-simply/recipes/quick-thai-chicken-soup'
                 )
     ]

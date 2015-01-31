@@ -7,7 +7,7 @@
   <div class="row">
     <h2 class="text-center"><%= @recipe.name %></h2>
     <div class="col-md-6 col-md-offset-1">
-      <dl class="dl-horizontal">
+      <dl class="dl-horizontal individual">
         <dt>Category:</dt>
         <dd><%= @recipe.category %></dd>
         <dt>Time Required:</dt>
@@ -34,7 +34,7 @@
   </div>
   <div class="row">>
     <div class="col-md-10 col-md-offset-1">
-      <dl class="dl-horizontal">  
+      <dl class="dl-horizontal preparation">  
         <dt>Preparation:</dt>
         <% @recipe.preparation.each_with_index do |step, index| %>
           <dd><%= "\n#{index + 1}) #{step}\n" %></dd>

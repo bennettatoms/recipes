@@ -17,33 +17,32 @@
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <a href="recipes/<%= recipe.id %>" class="list-group-item">
             <article class="row">
-              <div class="col-xs-12">
-                <h3><%= recipe.name %></h3>
-              </div>
-            </article>  
-            <article class="row">
-              <div class="col-xs-12">
+              <div class="col-xs-5">
                 <img class="middle" width=200px src="/images/<%= recipe.image_file %>"/>
               </div> 
-            </article>  
-            <article class="row">
-              <div class="col-xs-5">
+              <div class="col-xs-7">
+                <h3><%= recipe.name %></h3>
                 <dl class="dl-horizontal">
-                  <dt>Category: <%= recipe.category %></dt>
+                  <dt>Category: </dt>
+                  <dd><%= recipe.category %></dd>
                   <dt>Rating: </dt>
                   <% if recipe.rating[0].to_s.include?("available") %>
                     <dd><%= "no rating available" %></dd>
                   <% else %>
                     <dd><%= "#{recipe.rating[0]} out of #{recipe.rating[1]} #{recipe.rating[2]}" %></dd>
                   <% end %>   
-                </dl>
-              </div> 
-              <div class="col-xs-7">
-                <dl class="dl-horizontal">
                   <dt>Time Required:</dt>
                   <% recipe.cooking_time.each do |key, value| %>
                     <dd><%= "#{key.to_s.capitalize}: #{value.to_s} mins" %></dd>
                   <% end %>  
+                </dl>
+              </div>
+            </article>  
+            <article class="row">
+              <div class="col-xs-12">
+                <dl class="dl-horizontal rep-comment">
+                  <h4>Sample comment: </h4>
+                  <p><%= recipe.comment %></p>
                 </dl>
               </div>
             </article>
