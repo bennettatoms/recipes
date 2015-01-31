@@ -22,20 +22,20 @@
               </div> 
               <div class="col-xs-7 recipe-name-box">
                 <h3><%= recipe.name %></h3>
-                <dl class="dl-horizontal">
-                  <dt>Category: </dt>
-                  <dd><%= recipe.category %></dd>
-                  <dt>Rating: </dt>
+                <ul class="ul-horizontal">
+                  <li><strong>Category: </strong><%= recipe.category %></li>
+                  <!--<dd><%= recipe.category %></dd>-->
+                  <li><strong>Rating:</strong>
                   <% if recipe.rating[0].to_s.include?("available") %>
-                    <dd><%= "no rating available" %></dd>
+                    <%= "no rating available" %>
                   <% else %>
-                    <dd><%= "#{recipe.rating[0]} out of #{recipe.rating[1]} #{recipe.rating[2]}" %></dd>
-                  <% end %>   
-                  <dt>Time Required:</dt>
+                      <%= "#{recipe.rating[0]} out of #{recipe.rating[1]} #{recipe.rating[2]}" %>
+                  <% end %></li>   
+                  <li><strong>Time Required:</strong><br>
                   <% recipe.cooking_time.each do |key, value| %>
-                    <dd><%= "#{key.to_s.capitalize}: #{value.to_s} mins" %></dd>
-                  <% end %>  
-                </dl>
+                    <%= "#{key.to_s.capitalize}: #{value.to_s} mins" %><br>
+                  <% end %></li>
+                </ul>
               </div>
             </article>  
             <article class="row">
