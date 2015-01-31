@@ -107,7 +107,7 @@ body {
   display: inline-block;
   width: 555px; 
   height: 429px;
-  margin: 0px 5px 100px 5px;
+  margin: 0px 5px 80px 5px;
 }
 
 .recipe-image-box {
@@ -130,6 +130,7 @@ body {
   display:inline-block;
   width: 320px; 
   height: 260px;
+  text-align: left center;
 }
 
 .recipe-name-box h3 {
@@ -137,7 +138,9 @@ body {
   margin: 10px;
 }
 
-.recipe-name-box 
+.recipe-name-box ul {
+  vertical-align: middle;
+}
 
 /*.recipe-name-box dt {
   width: 120px;
@@ -153,7 +156,7 @@ body {
 }*/
 
 .rep-comment-box  {
-  width: 553px; 
+  width: 540px; 
   height: 165px;
 }
 
@@ -164,6 +167,7 @@ body {
 .rep-comment-box p {
   text-align: left;
   font-style: italic;
+  padding-right: 20px;
 }
 
 .individual dt {
@@ -210,8 +214,13 @@ body {
   opacity: 0.2;
 }
 
-.eggnog h3 p {
+.eggnog h3 {
   text-align: center;
+}
+
+.eggnog p {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .eggnog img {
