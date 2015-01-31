@@ -83,11 +83,20 @@ body {
 }
 
 .recipes {
- /* max-width: 585px; */
-  max-height: 429px;
+
 }
 
-.food-pic img {
+.recipe-box {
+  width: 555px; 
+  height: 429px;
+}
+
+.recipe-image-box {
+
+}
+
+
+.recipe-image-box img {
   margin: auto;
   max-width: 225px;
   height: auto;
@@ -107,11 +116,11 @@ body {
   margin-right: 10px;
 }
 
-.rep-comment h4 {
+.rep-comment-box h4 {
   font-size: 1em;
   font-weight: bold;
 }
-.rep-comment p {
+.rep-comment-box p {
   text-align: left;
   font-style: italic;
 }
@@ -131,8 +140,9 @@ body {
 }
 
 .individual dd {
-  text-align: right;
+  text-align: left;
   width: 450px;
+  word-wrap: break-word;
 }
 
 .item-image {
