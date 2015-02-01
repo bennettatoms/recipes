@@ -69,6 +69,27 @@ body {
   height: 50px;
 }
 */
+/* Footer */
+
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+
+.footer, .push {
+height: 2em;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  background-color: #2c3e50;
+  opacity: 0.8;
+  color: #C2D1E0;
+}
+
 /* Recipes page layout */
 
 .search {
@@ -212,6 +233,10 @@ section.recipe {
 
 }
 
+.modal-header h4 {
+  margin: -10px 0px -20px 0px;
+}
+
 .individual dt {
   text-align: right;
   width: 150px;
@@ -240,29 +265,42 @@ section.recipe {
   max max-height: 600px;
 }*/
 
+.about-eggnog{
+  position: relative;
+  width: 100%;
+  min-height: 553px;
+}
+
 .chef-u-logo {
-  position: fixed;
-  width: 250px;
-  min-height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35%;
+  max-width: 250px;
+  max-height: 600px;
   margin: auto;
 }
 
 .chef-u-logo img {
-  width: 300px;
-  height: 320px;
-  height: auto;
-  margin-top: 50px;
-  margin-left: 50px;
+  position: absolute;
+  width: 260px;
+  height: 280px;
+  margin-top: 130px;
+  left: 70%;
+  /*transform: translate(-50%, -50%);*/
   opacity: 0.2;
 }
 
 .eggnog h3 {
   text-align: center;
+  padding-right: 15%;
+  padding-top: 5%;
 }
 
 .eggnog p {
   text-align: center;
   margin-bottom: 50px;
+  padding-right: 15%;
 }
 
 .eggnog img {
@@ -271,9 +309,10 @@ section.recipe {
   opacity: 0.2; 
 }
 .eggnog {
-  float: right;
-  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
   width: 65%;
-  min-height: 600px;
+  max-height: 600px;
 
 }
