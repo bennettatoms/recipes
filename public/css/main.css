@@ -195,6 +195,40 @@ height: 2em;
   transform: translate(-50%, -50%);
 }
 
+.social-network-icons .btn {
+  width: 85px;
+  padding: 10px;
+  margin: 10px 6px 10px 7px;
+}
+
+.btn-twitter {
+  background-color: #9ba4ab;
+  background-image: url("/images/twitter-logo.png");
+  background-size: 75px 25px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.btn-facebook {
+  background-color: white;
+  background-image: url("/images/facebook_logo.png");
+  background-size: 75px 25px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.btn-pinterest {
+  background-color: #5d5756;
+  background-image: url("/images/pinterest_logo.png");
+  background-size: 75px 25px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.btn-pinterest:hover {
+  background-color: #3a3736;
+}
+
 .recipe-name-box {
   float: right;
   display:inline-block;
