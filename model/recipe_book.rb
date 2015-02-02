@@ -390,8 +390,7 @@ class RecipeBook
                                 sauce. i left it optional on the side, in case people thought it might be too strong, and 
                                 people were putting it on their other desserts! i used my own pumpkin puree, and drained 
                                 it over paper towels and a colander for about a half hour before it was needed so the 
-                                pumpkin filling would stand up. i also found the crust a little hard to cut, it fell 
-                                apart somewhat.',
+                                pumpkin filling would stand up.',
                   source:       'http://www.epicurious.com/recipes/food/views/Pumpkin-Pecan-Pie-with-Whiskey-Butter-Sauce-104141'
                 ),
       Recipe.new( id:           10,

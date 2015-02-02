@@ -6,7 +6,8 @@
 
     <!-- Optional theme -->
     <link href='http://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="/css/animate.min.css">
+    <link rel="stylesheet" href="/css/magic.css">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
   </head>
@@ -27,7 +28,7 @@
             <li <%= 'class="active"' if @active == 'about' %>><a href="/about">About</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li class="active" class="animated zoomInLeft" title="What's for dinner? Let destiny decide..."><a href="/recipes/<%= rand(1..20) %>">Fork of Destiny</a></li>
+          <li class="active destiny" title="What's for dinner? Let destiny decide..."><a href="/recipes/<%= rand(1..20) %>">Fork of Destiny</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Chef-Me<b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -41,8 +42,17 @@
       </div>
     </div>
     <%= yield %>
+    
+    <div class="push"></div>
+    <div class="footer">
+      <p>Website created by Bennett Adams. Visit my <a href="https://github.com/bennettatoms">GitHub</a> and <a href="https://www.linkedin.com/pub/bennett-adams/8/181/3b9">LinkedIn</a> profiles. Copyright (c) 2015</p>
+    </div>
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>setTimeout(function(){
+    $('.destiny').addClass('magictime swashIn');
+}, 1000);</script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   </body>
 </html>
